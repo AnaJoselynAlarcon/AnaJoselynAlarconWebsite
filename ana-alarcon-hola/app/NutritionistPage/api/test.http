@@ -1,0 +1,39 @@
+
+GET http://localhost:3000/NutritionistPage/api
+
+###
+
+GET http://localhost:3000/NutritionistPage/api
+
+###
+
+POST http://localhost:3000/NutritionistPage/api HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Carl",
+    "age": 25
+}
+
+###
+
+PUT http://localhost:3000/NutritionistPage/api HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Bobby",
+    "age": 31
+}
+
+###
+
+PATCH http://localhost:3000/NutritionistPage/api HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Bobby"
+}
+
+###
+
+DELETE http://localhost:3000/NutritionistPage/api HTTP/1.1
