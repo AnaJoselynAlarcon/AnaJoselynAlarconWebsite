@@ -10,10 +10,10 @@ const Navbar = () => {
   useEffect(() => {
     const changeColor = () => {
       if (window.scrollBy >= 90) {
-        setColor("#5405bb");
+        setColor("#40E0D0");
         setTextColor("#999");
       } else {
-        setColor("#1f98f4");
+        setColor("#40E0D0");
         setTextColor("#ffffff");
       }
     };
@@ -25,7 +25,7 @@ const Navbar = () => {
   };
 
   const handleHoverExit = () => {
-    setColor("#5505f4"); // Revert the background color when hover ends
+    setColor("#40E0D0"); // Revert the background color when hover ends
   };
 
   return (
